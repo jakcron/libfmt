@@ -134,6 +134,10 @@ clean: clean_object_files remove_binary_dir
 	@echo CXX $<
 	@$(CXX) $(CXXFLAGS) -c $< -o $@ 
 
+%.o: %.cc
+	@echo CXX $<
+	@$(CXX) $(CXXFLAGS) -c $< -o $@ 
+
 # Binary Directory
 .PHONY: create_binary_dir
 create_binary_dir:
