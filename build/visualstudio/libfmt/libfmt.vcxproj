@@ -157,11 +157,12 @@
     <ClInclude Include="..\..\..\include\fmt\locale.h" />
     <ClInclude Include="..\..\..\include\fmt\os.h" />
     <ClInclude Include="..\..\..\include\fmt\ostream.h" />
-    <ClInclude Include="..\..\..\include\fmt\posix.h" />
     <ClInclude Include="..\..\..\include\fmt\printf.h" />
     <ClInclude Include="..\..\..\include\fmt\ranges.h" />
+    <ClInclude Include="..\..\..\include\fmt\xchar.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\src\fmt.cc" />
     <ClCompile Include="..\..\..\src\format.cc" />
     <ClCompile Include="..\..\..\src\os.cc" />
   </ItemGroup>
