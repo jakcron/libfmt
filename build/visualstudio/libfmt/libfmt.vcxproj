@@ -162,7 +162,6 @@
     <ClInclude Include="..\..\..\include\fmt\xchar.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\src\fmt.cc" />
     <ClCompile Include="..\..\..\src\format.cc" />
     <ClCompile Include="..\..\..\src\os.cc" />
   </ItemGroup>
