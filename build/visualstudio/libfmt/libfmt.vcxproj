@@ -159,6 +159,7 @@
     <ClInclude Include="..\..\..\include\fmt\ostream.h" />
     <ClInclude Include="..\..\..\include\fmt\printf.h" />
     <ClInclude Include="..\..\..\include\fmt\ranges.h" />
+    <ClInclude Include="..\..\..\include\fmt\std.h" />
     <ClInclude Include="..\..\..\include\fmt\xchar.h" />
   </ItemGroup>
   <ItemGroup>

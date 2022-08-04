@@ -51,6 +51,9 @@
     <ClInclude Include="..\..\..\include\fmt\ranges.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\fmt\std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\include\fmt\xchar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
