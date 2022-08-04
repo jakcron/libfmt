@@ -38,7 +38,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: ${{ matrix.prog }}-${{ matrix.dist }}
-        path: ./bin/${{ matrix.prog }}{{ matrix.bin_ext }}
+        path: ./bin/${{ matrix.prog }}${{ matrix.bin_ext }}
   build_visualstudio:
     name: ${{ matrix.dist }}
     runs-on: ${{ matrix.os }}
@@ -70,4 +70,4 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: ${{ matrix.prog }}-${{ matrix.dist }}
-        path: .\build\visualstudio\${{ matrix.build_path }}\${{ matrix.prog }}{{ matrix.bin_ext }}
+        path: .\build\visualstudio\${{ matrix.build_path }}\${{ matrix.prog }}${{ matrix.bin_ext }}
