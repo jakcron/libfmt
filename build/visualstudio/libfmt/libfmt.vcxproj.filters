@@ -36,9 +36,6 @@
     <ClInclude Include="..\..\..\include\fmt\format-inl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\fmt\locale.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\include\fmt\os.h">
       <Filter>Header Files</Filter>
     </ClInclude>

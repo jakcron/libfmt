@@ -154,7 +154,6 @@
     <ClInclude Include="..\..\..\include\fmt\core.h" />
     <ClInclude Include="..\..\..\include\fmt\format-inl.h" />
     <ClInclude Include="..\..\..\include\fmt\format.h" />
-    <ClInclude Include="..\..\..\include\fmt\locale.h" />
     <ClInclude Include="..\..\..\include\fmt\os.h" />
     <ClInclude Include="..\..\..\include\fmt\ostream.h" />
     <ClInclude Include="..\..\..\include\fmt\printf.h" />
